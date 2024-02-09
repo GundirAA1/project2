@@ -1,0 +1,18 @@
+/* Стилі для іконки */
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .live-icon {
+    width: 100px;
+    filter: grayscale(100%); /* Застосовуємо чорно-білий фільтр */
+    transition: transform 5s ease; /* Замедлення анімації до 5 секунд */
+  }
+  
+  .live-icon:hover {
+    transform: scale(1.5); /* Збільшення масштабу при наведенні */
+    filter: none; /* Видаляємо фільтр при наведенні */
+  }
